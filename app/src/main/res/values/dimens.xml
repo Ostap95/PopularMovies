@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="progress_bar_width">42dp</dimen>
+    <dimen name="progress_bar_height">42dp</dimen>
+    <dimen name="default_margin_start">8dp</dimen>
+    <dimen name="default_margin_end">8dp</dimen>
+    <dimen name="default_margin_top">8dp</dimen>
+    <dimen name="default_margin_bottom">8dp</dimen>
+    <dimen name="default_card_elevation">2dp</dimen>
+    <dimen name="default_icon_width">42dp</dimen>
+    <dimen name="default_icon_height">42dp</dimen>
+    <dimen name="favorite_action_bar_button_width">30dp</dimen>
+    <dimen name="favorite_action_bar_button_height">30sp</dimen>
+</resources>

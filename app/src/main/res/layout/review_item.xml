@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/default_margin_bottom"
+    android:layout_marginEnd="@dimen/default_margin_end"
+    android:layout_marginStart="@dimen/default_margin_start"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    card_view:cardElevation="@dimen/default_card_elevation">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/author_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/default_margin_end"
+            android:layout_marginStart="@dimen/default_margin_start"
+            android:layout_marginTop="@dimen/default_margin_top"
+            android:textStyle="bold"
+            tools:text="Author" />
+
+        <TextView
+            android:id="@+id/content_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/default_margin_bottom"
+            android:layout_marginEnd="@dimen/default_margin_end"
+            android:layout_marginStart="@dimen/default_margin_start"
+            android:layout_marginTop="@dimen/default_margin_top"
+            android:ellipsize="end"
+            android:maxLines="@integer/review_content_max_lines"
+            tools:text="Summertime 2016 has not been very kind to DC Comics-based personalities looking to shine consistently like their big screen Marvel Comics counterparts. Following the super-sized dud that was _Batman v. Superman: Dawn of Justice_ released a few months ago must really put some major pressure on Warner Bros. to gamble on ensuring that the presence of **Suicide Squad** does not meet the same kind of indifferent reception." />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

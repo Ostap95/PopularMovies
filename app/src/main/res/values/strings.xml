@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PopularMovie</string>
+    <string name="error_message">Oops, something went wrong. \n  Make sure you\'re connected to the internet.</string>
+    <string name="action_refresh_title">Refresh</string>
+    <string name="action_filter_title">Filter</string>
+    <string name="action_filter_popular_title">Popular</string>
+    <string name="action_filter_top_rated">Top Rated</string>
+    <string name="detail_movie_title">Title</string>
+    <string name="detail_movie_rating">Rating</string>
+    <string name="detail_movie_release_date">Release Date</string>
+    <string name="detail_movie_overview">Overview</string>
+    <string name="action_favorite">Favorite</string>
+    <string name="action_share">Share</string>
+    <string name="action_filter_favorite">Favorite</string>
+    <string name="detail_activity_trailers">Trailers</string>
+    <string name="detail_activity_revices_tv">Reviews</string>
+    <string name="trailer_string">Trailer</string>
+</resources>
